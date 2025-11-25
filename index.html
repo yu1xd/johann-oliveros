@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Johann Oliveros - Multimedia Artist Portfolio" />
+  <title>Johann Oliveros - Multimedia Artist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="johann-logo.png" alt="Johann Oliveros Logo" height="40" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 d-flex flex-column min-vh-100">
+    <section class="hero" style="background-image: url('johann-banner.png');">
+      <div class="hero-content">
+        <h1>Hi, I'm <strong>Johann Oliveros</strong></h1>
+        <p>A passionate <strong>Multimedia Artist</strong> crafting creative visuals, motion graphics, and digital experiences.</p>
+        <p id="greeting"></p>
+        <a href="about.html" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section class="skills mb-5">
+      <h2 class="text-center mb-4">Technical Skills</h2>
+      <div class="skill-bar mb-4">
+        <p class="d-flex justify-content-between fw-medium">Videography <span>Competent (70%)</span></p>
+        <div class="progress" style="height: 10px; border-radius: 5px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%"></div>
+        </div>
+      </div>
+      <div class="skill-bar mb-4">
+        <p class="d-flex justify-content-between fw-medium">Motion Graphics <span>Beginner (55%)</span></p>
+        <div class="progress" style="height: 10px; border-radius: 5px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 55%"></div>
+        </div>
+      </div>
+      <div class="skill-bar mb-4">
+        <p class="d-flex justify-content-between fw-medium">Graphic Design <span>Competent (65%)</span></p>
+        <div class="progress" style="height: 10px; border-radius: 5px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 65%"></div>
+        </div>
+      </div>
+      <div class="skill-bar mb-4">
+        <p class="d-flex justify-content-between fw-medium">Video Editing <span>Competent (70%)</span></p>
+        <div class="progress" style="height: 10px; border-radius: 5px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education mt-5">
+      <h2>Educational Qualification</h2>
+      <div class="education-item d-flex align-items-center mb-3">
+        <img src="feu-tech-logo.png" alt="FEU Logo" width="50" class="me-3">
+        <div>
+          <span>TERTIARY · Aug 2024 - Present</span>
+          <h5>Bachelor of Multimedia Arts</h5>
+          <p>Specialization in Animation and Digital Film · FEU Institute of Technology - FEU-TECH</p>
+        </div>
+      </div>
+      <div class="education-item d-flex align-items-center mb-3">
+        <img src="st-anthony-logo.png" alt="St. Anthony School Logo" width="50" class="me-3">
+        <div>
+          <span>SECONDARY · Aug 2018 - Jun 2024</span>
+          <h5>St. Anthony School Manila</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="expertise mb-5">
+      <h2 class="text-center mb-4">Skills & Expertise</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 d-flex flex-column">
+            <img src="ae-logo.png" class="card-img-top" alt="Motion Design" style="height: 180px; object-fit: cover;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Motion Design</h5>
+              <p class="card-text flex-grow-1">Engaging animations and visual storytelling for digital media.</p>
+              <a href="about.html" class="btn btn-primary mt-auto">See Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 d-flex flex-column">
+            <img src="pr-logo.png" class="card-img-top" alt="Video Editing" style="height: 180px; object-fit: cover;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Video Editing</h5>
+              <p class="card-text flex-grow-1">Cinematic editing using Premiere Pro</p>
+              <a href="about.html" class="btn btn-primary mt-auto">See Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 d-flex flex-column">
+            <img src="ps-logo.png" class="card-img-top" alt="Graphic Design" style="height: 180px; object-fit: cover;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text flex-grow-1">Creative posters, branding, and digital illustrations.</p>
+              <a href="about.html" class="btn btn-primary mt-auto">See Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="mt-auto"></div>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-3 w-100">
+    <p id="copyright">&copy; 2025 Johann Oliveros. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
